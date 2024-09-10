@@ -10,7 +10,7 @@ const s3 = new S3({
   secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
   sessionToken: process.env.AWS_SESSION_TOKEN,
   region: 'us-east-1',
-});
+});  
 
 const bucketName = 'innovation-training-2024';
 
